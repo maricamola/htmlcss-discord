@@ -25,30 +25,6 @@ header{
   padding-top: 20px;
 }
 
-.bottone{
-  padding: 10px 20px;
-  margin: 0px 15px;
-  border-radius: 20px;
-  text-decoration: none;
-  font-size: 16px;
-  text-decoration: none;
-  background-color: white;
-}
-
-.intestazione{
-  display: flex;
-  justify-content: space-between;
-  height: 40px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.logo{
-  padding-right: 50px;
-  background-size: cover;
-}
-
-
 h1{
   font-size: 30px;
 }
@@ -61,7 +37,36 @@ p{
 }
 
 h1 p{
-  color: black
+  color: white
+}
+
+.bottone{
+  padding: 10px 20px;
+  margin: 0px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.bottone a{
+  text-decoration: none;
+  color: black;
+}
+
+
+/*MAIN*/
+
+.intestazione{
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  padding-right: 50px;
+  background-size: cover;
 }
 
 
@@ -112,13 +117,14 @@ nav ul li a:hover{
 
 .sectionstudy ,
 .sectionvoice ,
-.sectioncoach {
+.sectioncoach ,
+.lastsection {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   background-color:#FFFFFF;
-  height: 400px;
+  height: 500px;
 }
 
 .img-study{
@@ -136,27 +142,22 @@ nav ul li a:hover{
   width: 300px;
 }
 
-.sectionvoice{
-  background-color: #D3D3D3;
+.sectionvoice,
+.lastsection {
+  background-color: #F6F6F6;
 }
 
 .lastsection{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  background-color:#D3D3D3;
-  height: 900px;
+  height: 700px;
 }
 
-.ultimaimg{
+.presentazione-big{
   display: flex;
   justify-content: center;
-  align-items: flex-start;
   flex-direction: column;
-  height: 700px;
-  width: 900px;
   text-align: center;
+  width: 800px;
+  height: 500px;
 }
 
 
@@ -214,6 +215,19 @@ nav ul li a:hover{
   border: 2px dashed black;
   background-color: #FFB6C1;
 }
+
+.ultimo-bottone{
+  padding: 10px 20px;
+  margin: 0px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  background-color: #8EA1E1;
+  color: white;
+}
+
+
+
 
 
 
