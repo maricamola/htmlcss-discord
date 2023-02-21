@@ -148,7 +148,7 @@ nav ul li a:hover{
 }
 
 .lastsection{
-  height: 700px;
+  height: 1000px;
 }
 
 .presentazione-big{
@@ -160,10 +160,21 @@ nav ul li a:hover{
   height: 500px;
 }
 
+.stars{
+  background-size: cover;
+}
+
+.presentazione-big> .bottone{
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: #8EA1E1;
+}
+
+
 
 /*FOOTER*/
 
-.fcontainer{
+footer .top{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -172,12 +183,24 @@ nav ul li a:hover{
   height: 400px;
 }
 
+h3{
+  color:#7188D9;
+}
+
+.social h1{
+  color: #7188D9;
+}
+
 .social{
   display: flex;
+  flex-direction: column;
   height: 300px;
   width: 200px;
-  background-color:#F08080;
-  border: 2px dashed black;
+}
+
+.italy{
+  height: 10px;
+  width: 15px;
 }
 
 .prodotto ,
@@ -187,11 +210,11 @@ nav ul li a:hover{
   display: flex;
   height: 300px;
   width: 100px;
-  background-color: #20B2AA;
+  background-color: #1f7cc3
   border: 2px dashed white;
 }
 
-.finale {
+.bottom {
   display: flex;
   justify-content: center;
   background-color:#23272A;
@@ -201,30 +224,16 @@ nav ul li a:hover{
   border-top: 2px solid #D6D7D7;
 }
 
-.containerfinale{
-  background-color: #7FFFD4;
+.containerbottom{
   display: flex;
   justify-content: space-between;
-  height: 30px;
+  height: 40px;
   width: 600px;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.logofinale , .registrati{
-  border: 2px dashed black;
-  background-color: #FFB6C1;
-}
 
-.ultimo-bottone{
-  padding: 10px 20px;
-  margin: 0px 15px;
-  border-radius: 20px;
-  text-decoration: none;
-  font-size: 16px;
-  background-color: #8EA1E1;
-  color: white;
-}
 
 
 
