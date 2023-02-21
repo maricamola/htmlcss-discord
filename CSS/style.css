@@ -1,7 +1,14 @@
+/*GENERAL*/
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body{
+  font-family:"gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px;
 }
 
 .container{
@@ -11,43 +18,64 @@
 header{
   display: flex;
   justify-content: center;
-  background-color:#ADD8E6;
+  background-color:#3161E0;
   min-height: 50px;
   align-items: center;
   flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.bottone{
+  padding: 10px 20px;
+  margin: 0px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: white;
 }
 
 .intestazione{
-  background-color: #DAA520;
   display: flex;
   justify-content: space-between;
-  height: 20px;
-  border: 2px dashed black;
+  height: 40px;
   align-items: center;
   flex-wrap: wrap;
 }
 
 .logo{
   padding-right: 50px;
+  background-size: cover;
 }
 
-.login{
-  padding-left: 50px;
+
+h1{
+  font-size: 30px;
 }
+
+p{
+  font-size: 16px;
+  padding: 20px 10px;
+  word-spacing: 2px;
+  line-height: 25px;
+}
+
+h1 p{
+  color: black
+}
+
 
 nav ul{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   padding: 0 100px;
-  border-left: 1px dashed black;
-  border-right: 1px dashed black;
 }
 
 nav ul li a{
-  color: black;
+  color: white;
   text-decoration: none;
-  text-transform: uppercase;
+  font-size: 16px;
 }
 
 nav ul li{
@@ -58,21 +86,28 @@ nav ul li a:hover{
   text-decoration: underline;
 }
 
+.cta{
+  display:flex;
+  justify-content: space-between;
+}
+
 .jumbotron{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #00008B;
-  height: 300px;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  height: 500px;
 }
 
 .contenutojumbo{
   display: flex;
+  flex-direction: column;
   height: 200px;
-  width: 500px;
-  background-color: #EE82EE;
-  border: 2px dashed black;
+  width: 650px;
+  align-items: center;
+  text-align: center;
 }
 
 .sectionstudy ,
@@ -83,23 +118,22 @@ nav ul li a:hover{
   align-items: center;
   flex-wrap: wrap;
   background-color:#FFFFFF;
-  height: 300px;
+  height: 400px;
 }
 
 .img-study{
   display: flex;
-  height: 200px;
-  width: 400px;
-  background-color: #1E90FF;
-  border: 2px dashed black;
+  height: 300px;
+  width: 500px;
+  background-size: cover;
 }
 
 .presentazione{
   display: flex;
-  height: 200px;
-  width: 200px;
-  background-color: #FFC0CB;
-  border: 2px dashed black;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
 }
 
 .sectionvoice{
@@ -112,15 +146,21 @@ nav ul li a:hover{
   align-items: center;
   flex-wrap: wrap;
   background-color:#D3D3D3;
-  height: 500px;
+  height: 900px;
 }
 
-.imgfinal{
+.ultimaimg{
   display: flex;
-  height: 400px;
-  width: 600px;
-  background-color: #228B22;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 700px;
+  width: 900px;
+  text-align: center;
 }
+
+
+/*FOOTER*/
 
 .fcontainer{
   display: flex;
