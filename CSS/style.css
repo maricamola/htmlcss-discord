@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  font-size: 12px;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  background-color:#ADD8E6;
+  min-height: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.intestazione{
+  background-color: #DAA520;
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
+  border: 2px dashed black;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo{
+  padding-right: 50px;
+}
+
+.login{
+  padding-left: 50px;
+}
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 100px;
+  border-left: 1px dashed black;
+  border-right: 1px dashed black;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav ul li{
+  margin-right: 15px;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #00008B;
+  height: 300px;
+}
+
+.contenutojumbo{
+  display: flex;
+  height: 200px;
+  width: 500px;
+  background-color: #EE82EE;
+  border: 2px dashed black;
+}
+
+.sectionstudy ,
+.sectionvoice ,
+.sectioncoach {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color:#FFFFFF;
+  height: 300px;
+}
+
+.img-study{
+  display: flex;
+  height: 200px;
+  width: 400px;
+  background-color: #1E90FF;
+  border: 2px dashed black;
+}
+
+.presentazione{
+  display: flex;
+  height: 200px;
+  width: 200px;
+  background-color: #FFC0CB;
+  border: 2px dashed black;
+}
+
+.sectionvoice{
+  background-color: #D3D3D3;
+}
+
+.lastsection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color:#D3D3D3;
+  height: 500px;
+}
+
+.imgfinal{
+  display: flex;
+  height: 400px;
+  width: 600px;
+  background-color: #228B22;
+}
+
+.fcontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color:#23272A;
+  height: 400px;
+}
+
+.social{
+  display: flex;
+  height: 300px;
+  width: 200px;
+  background-color:#F08080;
+  border: 2px dashed black;
+}
+
+.prodotto ,
+.compagnia,
+.risorse,
+.norme {
+  display: flex;
+  height: 300px;
+  width: 100px;
+  background-color: #20B2AA;
+  border: 2px dashed white;
+}
+
+.finale {
+  display: flex;
+  justify-content: center;
+  background-color:#23272A;
+  height: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+  border-top: 2px solid #D6D7D7;
+}
+
+.containerfinale{
+  background-color: #7FFFD4;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  width: 600px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logofinale , .registrati{
+  border: 2px dashed black;
+  background-color: #FFB6C1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
