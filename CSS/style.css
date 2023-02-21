@@ -198,7 +198,7 @@ h3{
   display: flex;
   flex-direction: column;
   height: 300px;
-  width: 200px;
+  width: 300px;
 }
 
 .italy{
@@ -213,7 +213,6 @@ h3{
   display: flex;
   flex-direction: column;
   height: 300px;
-  width: 100px;
   background-color: #1f7cc3
   border: 2px dashed white;
 }
@@ -231,7 +230,7 @@ h3{
   height: 50px;
   align-items: center;
   flex-wrap: wrap;
-  border-top: 2px solid #D6D7D7;
+  border-top: 2px solid #48557E;
 }
 
 .containerbottom{
@@ -243,14 +242,23 @@ h3{
   flex-wrap: wrap;
 }
 
-.prodotto nav ul li a{
-  font-size: 10px;
+.top nav ul li a{
+  font-size: 14px;
   color: white;
+  word-spacing: 2px;
+  line-height: 25px;
+
 }
 
-.prodotto a{
-  list-style: none;
+.top ul{
+  list-style-type:none;
 }
+
+
+
+
+
+
 
 
 
